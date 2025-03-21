@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya - Achievement</title>
+    <!---------favicon logo--------->
+    <link rel="shortcut icon" href="./assets/profile-pic 2.png" type="image/x-icon">
+    <!----link with css------->
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/mediaqueries.css" />
+    <link rel="stylesheet" href="style/responsive.css">
+    <!------link with cdn------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+
+    <style>
+        @media screen and (max-width: 1200px) {
+          nav {
+            display: none;
+          }
+        }
+      </style>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="./index.html" onclick="navigateToIndex()">Home</a></li>
+                <li><a href="./achievement.html">Certificate</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">🧑🏻 Aditya Kumar Singh</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="./index.html" onclick="toggleMenu(), navigateToIndex()">Home</a></li>
+            <li><a href="#certificates" onclick="toggleMenu()">Certificates</a></li>
+            <li><a href="./contact.html" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+
+    <section id="certificates">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Certificates</h1>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    <script>
+        function navigateTolightbox() {
+          window.location.href = 'lightbox.html#blog';
+        }
+        function navigateToIndex() {
+          window.location.href = 'index.html';
+        }
+      </script>
+      <script src="script.js"></script>
+</body>
+
+</html>
